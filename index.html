@@ -11,7 +11,7 @@
 <body class="list">
 	<header class="caption">
 		<h1>Mozilla and the new web challenge</h1>
-		<p class="footer">Your name, your contact details</p>
+		<p class="footer">{Your name}, {your <a href="http://twitter.com/">@twitter</a> or <a href="mailto:you@email.com">you@email.com</a>}</p>
 	</header>
 
 <!-- 
@@ -33,7 +33,7 @@
 				<h2>Mozilla and the new web challenge</h2>
 			</header>
 			<img src="pictures/introicons.png" class="middle" alt="Icons of B2G, Firefox OS and Mozilla Apps">
-			<footer class="byline">Firstname, Lastname, Conference, Location, date</footer>
+			<footer class="byline">{Firstname}, {Lastname}, {Conference}, {Location}, {date}</footer>
 		</section>
 	</div></div>
 
@@ -42,8 +42,15 @@
 			<header>
 				<h2>Who am I?</h2>
 			</header>
-			<p>This <code>&lt;tool&gt;</code> is provided <strong>without</strong> warranty, guarantee, or much in the way of explanation. Note that use of this tool may or may not crash <em>your</em> browser.</p>
-			<p><a href="examples/index.htm" target="_blank">This link will be opened in the new tab</a></p>
+			<!--
+				<img src="pictures/welcome.jpg" class="right" alt="Welcome mat">
+				^ add your photo if wanted - 400px wide works best
+			--> 
+			<ul>
+				<li>{name}</li>
+				<li>{title}</li>
+				<li>{<a href="http://twitter.com/">@twitter</a>}</li>
+			</ul>
 
 			<footer class="notes">
 				Introduce yourself, who you are and why you are the person to give that talk
@@ -586,11 +593,10 @@
 			</header>
 			<img src="pictures/redpanda.jpg" class="right" alt="Red panda (Firefox)">
 			<ul>
-				<li>What has Mozilla done?</li>
-				<li>What do we do now?</li>
-				<li>A new challenge</li>
-				<li>Firefox for developers</li>
-				<li>Firefox OS / Apps for the web</li>
+				<li>{name}</li>
+				<li>{title}</li>
+				<li>{<a href="http://twitter.com/">@twitter</a>}</li>
+				<li><strong>Slides</strong>: {slideurl}</li>
 			</ul>
 			<small class="credits">
 				<a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
